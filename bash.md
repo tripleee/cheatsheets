@@ -44,7 +44,7 @@ echo $name  # see below
 echo "$name"
 echo "${name}!"
 ```
-Generally quote your variables unless they contain wildcards to expand or command fragments with quoting.
+Generally quote your variables unless they contain wildcards to expand or command fragments.
 
 ```bash
 wildcard="*.txt"
