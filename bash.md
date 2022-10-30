@@ -46,7 +46,7 @@ echo "${name}!"
 ```
 Generally quote your variables unless they contain wildcards to expand or command fragments with quoting.
 
-```
+```bash
 wildcard="*.txt"
 option="iv"
 cp -$options $wildcard /tmp
